@@ -14,6 +14,12 @@
 		7B6CC5082B4CA08800A43306 /* ifoodCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5072B4CA08800A43306 /* ifoodCloneTests.swift */; };
 		7B6CC5122B4CA08800A43306 /* ifoodCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5112B4CA08800A43306 /* ifoodCloneUITests.swift */; };
 		7B6CC5142B4CA08800A43306 /* ifoodCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5132B4CA08800A43306 /* ifoodCloneUITestsLaunchTests.swift */; };
+		7B6CC5232B4CA40D00A43306 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5222B4CA40D00A43306 /* OrderTypeGridView.swift */; };
+		7B6CC5262B4CA85A00A43306 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5252B4CA85A00A43306 /* OrderType.swift */; };
+		7B6CC5282B4CA8F800A43306 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5272B4CA8F800A43306 /* DataSourceMock.swift */; };
+		7B6CC52A2B4CABFC00A43306 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5292B4CABFC00A43306 /* OrderTypeView.swift */; };
+		7B6CC52D2B4CB36300A43306 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC52C2B4CB36300A43306 /* NavigationBar.swift */; };
+		7B6CC5302B4CB5A700A43306 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC52F2B4CB5A700A43306 /* CarouselItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		7B6CC50D2B4CA08800A43306 /* ifoodCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ifoodCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6CC5112B4CA08800A43306 /* ifoodCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifoodCloneUITests.swift; sourceTree = "<group>"; };
 		7B6CC5132B4CA08800A43306 /* ifoodCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifoodCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B6CC5222B4CA40D00A43306 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		7B6CC5252B4CA85A00A43306 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		7B6CC5272B4CA8F800A43306 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		7B6CC5292B4CABFC00A43306 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		7B6CC52C2B4CB36300A43306 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		7B6CC52F2B4CB5A700A43306 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,10 @@
 		7B6CC4F52B4CA08700A43306 /* ifoodClone */ = {
 			isa = PBXGroup;
 			children = (
+				7B6CC52E2B4CB57E00A43306 /* CarouselView */,
+				7B6CC52B2B4CB34800A43306 /* NavigationBar */,
+				7B6CC5242B4CA83B00A43306 /* model */,
+				7B6CC5212B4CA3DD00A43306 /* GridView */,
 				7B6CC4F62B4CA08700A43306 /* ifoodCloneApp.swift */,
 				7B6CC4F82B4CA08700A43306 /* ContentView.swift */,
 				7B6CC4FA2B4CA08800A43306 /* Assets.xcassets */,
@@ -125,6 +141,40 @@
 				7B6CC5132B4CA08800A43306 /* ifoodCloneUITestsLaunchTests.swift */,
 			);
 			path = ifoodCloneUITests;
+			sourceTree = "<group>";
+		};
+		7B6CC5212B4CA3DD00A43306 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5222B4CA40D00A43306 /* OrderTypeGridView.swift */,
+				7B6CC5292B4CABFC00A43306 /* OrderTypeView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		7B6CC5242B4CA83B00A43306 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5252B4CA85A00A43306 /* OrderType.swift */,
+				7B6CC5272B4CA8F800A43306 /* DataSourceMock.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7B6CC52B2B4CB34800A43306 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC52C2B4CB36300A43306 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		7B6CC52E2B4CB57E00A43306 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC52F2B4CB5A700A43306 /* CarouselItemView.swift */,
+			);
+			path = CarouselView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6CC5282B4CA8F800A43306 /* DataSourceMock.swift in Sources */,
+				7B6CC5302B4CB5A700A43306 /* CarouselItemView.swift in Sources */,
+				7B6CC52A2B4CABFC00A43306 /* OrderTypeView.swift in Sources */,
+				7B6CC5262B4CA85A00A43306 /* OrderType.swift in Sources */,
+				7B6CC5232B4CA40D00A43306 /* OrderTypeGridView.swift in Sources */,
+				7B6CC52D2B4CB36300A43306 /* NavigationBar.swift in Sources */,
 				7B6CC4F92B4CA08700A43306 /* ContentView.swift in Sources */,
 				7B6CC4F72B4CA08700A43306 /* ifoodCloneApp.swift in Sources */,
 			);
