@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B6315F22B4F04AA00BFBDD1 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6315F12B4F04AA00BFBDD1 /* StoresContainerView.swift */; };
 		7B6CC4F72B4CA08700A43306 /* ifoodCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC4F62B4CA08700A43306 /* ifoodCloneApp.swift */; };
 		7B6CC4F92B4CA08700A43306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC4F82B4CA08700A43306 /* ContentView.swift */; };
 		7B6CC4FB2B4CA08800A43306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CC4FA2B4CA08800A43306 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		7B6CC52D2B4CB36300A43306 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC52C2B4CB36300A43306 /* NavigationBar.swift */; };
 		7B6CC5302B4CB5A700A43306 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC52F2B4CB5A700A43306 /* CarouselItemView.swift */; };
 		7B6CC5322B4CB95C00A43306 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5312B4CB95C00A43306 /* CarouselTabView.swift */; };
+		7BF1CEEF2B4F018A00A5A17D /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1CEEE2B4F018A00A5A17D /* StoreItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B6315F12B4F04AA00BFBDD1 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		7B6CC4F32B4CA08700A43306 /* ifoodClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ifoodClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6CC4F62B4CA08700A43306 /* ifoodCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifoodCloneApp.swift; sourceTree = "<group>"; };
 		7B6CC4F82B4CA08700A43306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		7B6CC52C2B4CB36300A43306 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		7B6CC52F2B4CB5A700A43306 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		7B6CC5312B4CB95C00A43306 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		7BF1CEEE2B4F018A00A5A17D /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		7B6CC4F52B4CA08700A43306 /* ifoodClone */ = {
 			isa = PBXGroup;
 			children = (
+				7BF1CEED2B4F015F00A5A17D /* StoresView */,
 				7B6CC52E2B4CB57E00A43306 /* CarouselView */,
 				7B6CC52B2B4CB34800A43306 /* NavigationBar */,
 				7B6CC5242B4CA83B00A43306 /* model */,
@@ -178,6 +183,15 @@
 				7B6CC5312B4CB95C00A43306 /* CarouselTabView.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		7BF1CEED2B4F015F00A5A17D /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				7BF1CEEE2B4F018A00A5A17D /* StoreItemView.swift */,
+				7B6315F12B4F04AA00BFBDD1 /* StoresContainerView.swift */,
+			);
+			path = StoresView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,7 +328,9 @@
 				7B6CC5302B4CB5A700A43306 /* CarouselItemView.swift in Sources */,
 				7B6CC52A2B4CABFC00A43306 /* OrderTypeView.swift in Sources */,
 				7B6CC5262B4CA85A00A43306 /* OrderType.swift in Sources */,
+				7B6315F22B4F04AA00BFBDD1 /* StoresContainerView.swift in Sources */,
 				7B6CC5232B4CA40D00A43306 /* OrderTypeGridView.swift in Sources */,
+				7BF1CEEF2B4F018A00A5A17D /* StoreItemView.swift in Sources */,
 				7B6CC52D2B4CB36300A43306 /* NavigationBar.swift in Sources */,
 				7B6CC4F92B4CA08700A43306 /* ContentView.swift in Sources */,
 				7B6CC4F72B4CA08700A43306 /* ifoodCloneApp.swift in Sources */,
